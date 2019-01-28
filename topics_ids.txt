@@ -1,0 +1,319 @@
+210	Technology
+212	Aerospace Equipment
+211	Automation
+235	Communication: Telecommunications
+234	Communication
+236	Construction
+241	Construction: Cement Industry
+240	Construction: Renovation and interior design: Saunas
+239	Construction: Renovation and interior design
+238	Construction: Ventilation and Air Conditioning
+261	Electronics: Electronics
+252	Electronics: Fiber Optics
+251	Electronics: Hardware
+253	Electronics: Home Electronics
+254	Electronics: Microprocessor Technology
+256	Electronics: Radio
+257	Electronics: Robotics
+255	Electronics: Signal Processing
+260	Electronics: Telecommunications
+259	Electronics: TV. Video
+258	Electronics: VLSI
+250	Electronics
+263	Energy: Renewable Energy
+262	Energy
+229	Food Manufacturing
+243	Fuel Technology
+242	Heat
+232	industrial equipment and technology
+231	Industry: Metallurgy
+230	Instrument
+218	Light Industry
+219	Materials
+220	Mechanical Engineering
+221	Metallurgy
+222	Metrology
+215	Military equipment: Weapon
+214	Military equipment
+233	Missiles
+224	Nanotechnology
+226	Oil and Gas Technologies: Pipelines
+225	Oil and Gas Technologies
+228	Patent Business. Ingenuity. Innovation
+216	Publishing
+249	Refrigeration
+227	Regulatory Literature
+223	Safety and Security
+217	Space Science
+244	Transport
+245	Transportation: Aviation
+246	Transportation: Cars, motorcycles
+247	Transportation: Rail
+248	Transportation: Ships
+213	Water Treatment
+57	Art
+60	Cinema
+58	Design: Architecture
+59	Graphic Arts
+61	Music
+62	Music: Guitar
+63	Photo
+12	Biology
+14	Anthropology
+15	Anthropology: Evolution
+16	Biostatistics
+17	Biotechnology
+18	Biophysics
+19	Biochemistry
+20	Biochemistry: enologist
+31	Ecology
+13	Estestvoznananie
+22	Genetics
+26	Microbiology
+27	Molecular
+28	Molecular: Bioinformatics
+30	Plants: Agriculture and Forestry
+21	Virology
+23	Zoology
+24	Zoology:Paleontology
+25	Zoology: Fish
+1	Business
+2	Accounting
+11	E-Commerce
+3	Logistics
+6	Management
+4	Marketing
+5	Marketing: Advertising
+7	Management: Project Management
+8	MLM
+9	Responsibility and Business Ethics
+10	Trading
+296	Chemistry
+297	Analytical Chemistry
+304	Chemical
+299	Inorganic Chemistry
+298	Materials
+300	Organic Chemistry
+301	Pyrotechnics and explosives
+302	Pharmacology
+303	Physical Chemistry
+69	Computers
+71	Algorithms and Data Structures
+72	Algorithms and Data Structures: Cryptography
+73	Algorithms and Data Structures: Image Processing
+74	Algorithms and Data Structures: Pattern Recognition
+75	Algorithms and Data Structures: Digital watermarks
+80	Cybernetics
+81	Cybernetics: ArtificialIntelligence
+82	Cryptography
+76	Databases
+78	Information Systems
+79	Information Systems: EC businesses
+83	Lectures, monographs
+84	Media
+99	Networking
+100	Networking: Internet
+85	Operating Systems
+86	Organization and Data Processing
+87	Programming
+88	Programming: Libraries API
+89	Programming: Games
+90	Programming: Compilers
+91	Programming: Modeling languages
+92	Programming: Programming Languages
+93	Programs: TeX, LaTeX
+77	Security
+94	Software: Office software
+95	Software: Adobe Products
+96	Software: Macromedia Products
+97	Software: CAD
+98	Software: Systems: scientific computing
+101	System Administration
+70	Web-design
+32	Geography
+33	Geodesy. Cartography
+34	Local History
+35	Local history: Tourism
+36	Meteorology, Climatology
+37	Russia
+38	Geology
+39	Gidrogeology
+40	Mining
+305	Economy
+310	Econometrics
+306	Investing
+309	Markets
+307	Mathematical Economics
+308	Popular
+183	Education
+187	Elementary
+185	International Conferences and Symposiums
+186	Self-help books
+184	Theses abstracts
+324	Jurisprudence
+311	Criminology, Forensic Science
+312	Criminology: Court. examination
+313	Law
+41	Housekeeping, leisure
+42	Aquaria
+43	Astrology
+48	Beauty, image
+52	Benefits Homebrew
+47	Collecting
+49	Cooking
+50	Fashion, Jewelry
+45	Games: Board Games
+46	Games: Chess
+56	Garden, garden
+54	Handicraft
+55	Handicraft: Cutting and Sewing
+51	Hunting and Game Management
+44	Pet
+53	Professions and Trades
+64	History
+65	American Studies
+66	Archaeology
+67	Military History
+314	Linguistics
+318	Comparative Studies
+322	Dictionaries
+315	Foreign
+316	Foreign: English
+317	Foreign: French
+319	Linguistics
+320	Rhetoric
+321	Russian Language
+323	Stylistics
+102	Literature
+106	Children
+107	Comics
+105	Detective
+112	Fantasy
+103	Fiction
+111	Folklore
+104	Library
+108	Literary
+109	Poetry
+110	Prose
+113	Mathematics
+114	Algebra
+115	Algebra: Linear Algebra
+116	Algorithms and Data Structures
+117	Analysis
+137	Applied Mathematics
+139	Automatic Control Theory
+126	Combinatorics
+120	Computational Mathematics
+128	Computer Algebra
+133	Continued fractions
+125	Differential Equations
+124	Discrete Mathematics
+123	Dynamical Systems
+146	Elementary
+144	Functional Analysis
+134	Fuzzy Logic and Applications
+141	Game Theory
+121	Geometry and Topology
+140	Graph Theory
+129	Lectures
+130	Logic
+132	Mathematical Physics
+131	Mathematical Statistics
+143	Number Theory
+145	Numerical Analysis
+142	Operator Theory
+135	Optimal control
+136	Optimization. Operations Research.
+119	Probability
+122	Puzzle
+138	Symmetry and group
+127	The complex variable
+118	Wavelets and signal processing
+147	Medicine
+148	Anatomy and physiology
+149	Anesthesiology and Intensive Care
+159	Cardiology
+160	Chinese Medicine
+161	Clinical Medicine
+170	Dentistry, Orthodontics
+155	Diabetes
+151	Diseases: Internal Medicine
+150	Diseases
+176	Endocrinology
+167	ENT
+177	Epidemiology
+174	Feng Shui
+152	Histology
+153	Homeopathy
+156	Immunology
+157	Infectious diseases
+162	Molecular Medicine
+163	Natural Medicine
+165	Neurology
+166	Oncology
+168	Ophthalmology
+169	Pediatrics
+173	Pharmacology
+164	Popular scientific literature
+175	Surgery, Orthopedics
+172	Therapy
+171	Trial
+158	Yoga
+189	Other Social Sciences
+191	Cultural
+197	Ethnography
+190	Journalism, Media
+192	Politics
+193	Politics: International Relations
+195	Philosophy
+196	Philosophy: Critical Thinking
+194	Sociology
+264	Physics
+266	Astronomy: Astrophysics
+265	Astronomy
+270	Crystal Physics
+287	Electricity and Magnetism
+288	Electrodynamics
+278	General courses
+267	Geophysics
+271	Mechanics
+274	Mechanics: Fluid Mechanics
+273	Mechanics: Mechanics of deformable bodies
+275	Mechanics: Nonlinear dynamics and chaos
+272	Mechanics: Oscillations and Waves
+276	Mechanics: Strength of Materials
+277	Mechanics: Theory of Elasticity
+279	Optics
+284	Physics of lasers
+283	Physics of the Atmosphere
+285	Plasma Physics
+268	Quantum Mechanics
+269	Quantum Physics
+286	Solid State Physics
+280	Spectroscopy
+281	Theory of Relativity and Gravitation
+282	Thermodynamics and Statistical Mechanics
+289	Physical Educ. and Sport
+290	Bodybuilding
+292	Bike
+295	Fencing
+291	Martial Arts
+294	Sport fishing
+293	Survival
+198	Psychology
+200	The art of communication
+204	Creative Thinking
+199	Hypnosis
+201	Love, erotic
+202	Neuro-Linguistic Programming
+203	Pedagogy
+205	Religion
+206	Buddhism
+209	Esoteric, Mystery
+207	Kabbalah
+208	Orthodoxy
+178	Science (General)
+179	International Conferences and Symposiums
+180	Science of Science
+181	Scientific-popular
+182	Scientific and popular: Journalism
