@@ -27,11 +27,15 @@ you can find the paper meta info from 2008.01 to 2018.04
 sed 's/\\"/ /g' libgen_content.csv > libgen_content1.csv
 # sed -i '/"ban"/d;/"del"/d;/"Russian"/d' libgen_content1.csv # should not run this
 ```
-2) use grep command to filter the lines you selected;    
+3) use grep command to filter the lines you selected;    
 ```
 grep -i mathematics libgen_content1.csv > result.csv
 ```
-3) then, use "libgen_createDownloadlink.py" to create "libgen.io.{keyword}.txt", each line in the txt files contain raw book info and different mirror downloadlinks! 
+4) then, use "libgen_createDownloadlink.py" to create "libgen.io.{keyword}.txt", each line in the txt files contain raw book info and different mirror downloadlinks! 
 ```
 python libgen_createDownloadlink.py result.csv 
+```
+5） because of the libgen.pw website changes download link frequently, we also need another script to update the libgen.pw downloadlink in "result.csv"
+```
+python libgen_updateLibgenPWLink.py -f result.csv -n 20
 ```
