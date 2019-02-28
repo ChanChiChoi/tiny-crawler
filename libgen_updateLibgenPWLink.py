@@ -25,7 +25,7 @@ def mirror_LibgenPW(zip2):
            url = f'https://ambry.pw/item/detail/id/{id1}'
            res = get(url)
            content = bs(res.text,'lxml')
-           bookLink = content.find('a',{'href':re.compile('https://dnld.ambry.cx/download/book/.*')})
+           bookLink = content.find('a',{'href':re.compile('https://d-m.bksdl.xyz/download/book/.*')})
            download = bookLink['href']
            title = row[1]
            authors = row[5]
