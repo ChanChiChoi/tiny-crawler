@@ -38,7 +38,7 @@ def mirror_LibgenPW(zip2):
             #await asyncio.sleep(2*indtry)
             time.sleep(2*indtry)
 
-   return ''
+   return row
 
 
 
