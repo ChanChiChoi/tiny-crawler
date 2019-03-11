@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-
+import re
 import time
 import secrets
 import itertools
@@ -8,7 +8,7 @@ import os.path as osp
 from bs4 import BeautifulSoup as bs
 
 gHeaders = {'user-agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0'}
-
+clean_pat = re.compile('<!--[^<>]*-->',re.M)
 months = sorted('0704,0705,0706,0707,0708,0709,0710,0711,0712'.split(','),reverse=True)
 
 def time2008_2018():
@@ -60,6 +60,7 @@ def get_result(text,id):
         return '='*50
     subject = abs.find('span',{'class':"primary-subject"}).text
     authors = abs.find('div',{'class':"authors"}).text.replace('\n','')
+    authors = clean_pat.sub('',authors)
     abstract = abs.find('blockquote', {'class':"abstract mathjax"}).text
     abstract = abstract.replace('\n',' ').replace('\t',' ')
     ans = '\t'.join([id,title,subject,authors,abstract])
