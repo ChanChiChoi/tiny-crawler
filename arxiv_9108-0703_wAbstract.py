@@ -1,5 +1,5 @@
 #-*- coding: utf-8 -*-
-
+import re
 import time
 import secrets
 import itertools
@@ -7,7 +7,7 @@ import requests
 import os.path as osp
 from bs4 import BeautifulSoup as bs
 
-
+clean_pat = re.compile('<!--[^<>]*-->',re.M)
 gHeaders = {'user-agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0'}
 gArchives = ['astro-ph',
              'cond-mat',
@@ -93,6 +93,7 @@ def get_result(text,id):
     title = abs.find('h1',{'class':"title mathjax"}).text.split('\n')[1]
     subject = abs.find('span',{'class':"primary-subject"}).text
     authors = abs.find('div',{'class':"authors"}).text.replace('\n','')
+    authors = clean_pat.sub('',authors)
     abstract = abs.find('blockquote', {'class':"abstract mathjax"}).text
     abstract = abstract.replace('\n',' ').replace('\t',' ')
     ans = '\t'.join([id,title,subject,authors,abstract])
