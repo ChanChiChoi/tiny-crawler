@@ -9,7 +9,7 @@ import requests
 import os.path as osp
 from bs4 import BeautifulSoup as bs
 
-
+clean_pat = re.compile('<!--[^<>]*-->',re.M)
 gHeaders = {'user-agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0'}
 gArchives = [#'astro-ph',
              #'cond-mat',
@@ -124,7 +124,8 @@ def get_list_result(archive,year,skip):
 
         author = meta.find('div',{"class":"list-authors"}).text
         author = author.strip().replace('\n',' ')
-
+        authors = clean_pat.sub('',authors)
+        
         subject = meta.find('div',{"class":"list-subjects"}).text
         subject = subject.strip().replace('\n',' ')
 
