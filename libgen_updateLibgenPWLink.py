@@ -25,7 +25,9 @@ def mirror_LibgenPW(zip2):
            url = f'https://ambry.pw/item/detail/id/{id1}'
            res = get(url)
            content = bs(res.text,'lxml')
-           bookLink = content.find('a',{'href':re.compile('https://d-m.bksdl.xyz/download/book/.*')})
+           #bookLink = content.find('a',{'href':re.compile('https://dnld.ambry.cx/download/book/.*')})
+           #bookLink = content.find('a',{'href':re.compile('https://d-m.bksdl.xyz/download/book/.*')})
+           bookLink = content.find_all('div',{'class':'book-info__download'})[0].a
            download = bookLink['href']
            title = row[1]
            authors = row[5]
@@ -36,6 +38,7 @@ def mirror_LibgenPW(zip2):
        except Exception as e:
             print(f'\033[31m [error] [{ind}] try...{indtry}... name:author=[{name}:{author}] {str(e)}, {url} \033[0m')
             #await asyncio.sleep(2*indtry)
+            row[-1]= ''
             time.sleep(2*indtry)
 
    return row
