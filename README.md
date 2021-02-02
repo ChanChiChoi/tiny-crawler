@@ -39,3 +39,8 @@ python libgen_createDownloadlink.py result.csv
 ```
 python libgen_updateLibgenPWLink.py -f result.csv -n 20
 ```
+
+ps:
+```
+awk -F'\t' '{print "- " $4 " .["$2"](https://arxiv.org/pdf/"$1") [J]. arXiv preprint arXiv:"$1"."}' file.txt >file1.txt
+```
