@@ -62,6 +62,7 @@ def papercode(papername:str):
     bs = BeautifulSoup(con,'lxml')
 
     codes = bs.find_all('a',{'class':'code-table-link'})
+    if len(codes) == 0: return ''
     code = codes[0].get('href')
 
     return code
