@@ -7,6 +7,7 @@
 - arxiv_9108-0703_wAbstract.py: get the paper meta info from 1991.08 to 2007.03   
 ps:**because arxiv change it's url rule from 2007.03, so we need two different script to scrapy the data**.
 - arxiv_byArchive_woAbstract: download the paper meta info in bulk by access [arxiv archive](https://arxiv.org/archive). but it can get the papers' abstract
+- get_code.py: download paper's code from paperswithcode.com website, the script is so short, you can read the script code directly.
 
 ## paperMeta4arxiv
 because the arxiv do not support Regular search, so i scrapy the paper meta info here     
@@ -39,6 +40,7 @@ python libgen_createDownloadlink.py result.csv
 ```
 python libgen_updateLibgenPWLink.py -f result.csv -n 20
 ```
+
 
 ps:
 ```
